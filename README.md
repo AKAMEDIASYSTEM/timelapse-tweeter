@@ -8,8 +8,8 @@ To install, be in your RasPi command line and do this:
     
     git clone https://github.com/AKAMEDIASYSTEM/timelapse-tweeter.git  
     cd timelapse-tweeter  
-    sudo nano upload.sh  
-    [ ADD YOUR TWITTER CONSUMER SECRET AND IF YOU LIKE, YOUR PINBOARD TOKEN TO UPLOAD.SH ]  
+    sudo nano giffer.py  
+    [ ADD YOUR TWITTER CONSUMER SECRET AND IF YOU LIKE, YOUR PINBOARD TOKEN TO giffer.py ]  
     sudo chmod +x install.sh  
     ./install.sh  
     
