@@ -5,12 +5,17 @@ Here's a simple RasPi setup that tweets a timelapse from the RasPi camera every 
 There is also the option to have the scripts tweet a random choice from your recent Pinboard bookmarks, a weird entanglement that I like.  
 
 To install, be in your RasPi command line and do this:  
-    git clone https://github.com/AKAMEDIASYSTEM/timelapse-tweeter.git
-    cd timelapse-tweeter
-    sudo nano upload.sh
-    [ ADD YOUR TWITTER CONSUMER SECRET AND IF YOU LIKE, YOUR PINBOARD TOKEN TO UPLOAD.SH ]
-    sudo chmod +x install.sh
-    ./install.sh
+    `git clone https://github.com/AKAMEDIASYSTEM/timelapse-tweeter.git`
+    
+    `cd timelapse-tweeter`
+    
+    `sudo nano upload.sh`
+    
+    `[ ADD YOUR TWITTER CONSUMER SECRET AND IF YOU LIKE, YOUR PINBOARD TOKEN TO UPLOAD.SH ]`
+    
+    `sudo chmod +x install.sh`
+    
+    `./install.sh`
     
     
 ...that is it! Now you will have to wait 2 hours (max) for the first timelapses to roll in.
