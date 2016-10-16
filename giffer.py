@@ -39,9 +39,9 @@ qqq = random.sample(s, 2)
 tweet_text = ' | '.join(qqq)
 print tweet_text
 
-api = tweepy.API(auth)
+api = tweepy.API(twitter_auth)
 api.update_with_media(theGif, tweet_text)
 '''
 
-api = tweepy.API(auth)
+api = tweepy.API(twitter_auth)
 api.update_with_media(theGif, tweet_text)
