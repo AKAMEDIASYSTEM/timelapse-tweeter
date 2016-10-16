@@ -16,7 +16,7 @@ pinboard_token = 'FILL_IT_IN'
 pinboard_url = 'https://api.pinboard.in/v1/posts/recent'
 
 twitter_auth = tweepy.OAuthHandler(twitter_consumer_key, twitter_consumer_secret)
-twitter_auth.set_access_token(twitter_access_token, access_token_secret)
+twitter_auth.set_access_token(twitter_access_token, twitter_access_token_secret)
 theGif = sys.path[0] + '/lastHour.gif'
 
 # this part can be uncommented if you want to add the pinboard links-as-text feature
